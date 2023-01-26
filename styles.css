@@ -1,0 +1,53 @@
+/* body {
+    display: block;
+} */
+#title, #description {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+#title {
+    top: 0;
+    color: royalblue
+}
+#description {
+    top: 50px;
+    color: black;
+    font-size: 1em;
+}
+#svg1 {
+    padding: 0 auto;
+    margin-top: 50px;
+    /* background-color: paleturquoise; */
+}
+
+.map {
+    border: 1px solid green;
+    padding-top: 40px;
+}
+
+
+#tooltip {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: right;
+    right : 0;
+    padding: 20px;
+    font-size: 2em;
+    background: var(--var-lighted);
+    box-shadow: 1px 1px 10px;
+    border-radius: 2px;
+    pointer-events: none;
+    z-index: 3;
+    opacity: 0;
+    height: auto;
+    width: fit-content
+  }
+
+  #legend {
+    z-index: 2;
+    position: absolute;
+    right : 100px;
+  }
